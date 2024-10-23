@@ -1,6 +1,6 @@
 import socket
 
-HOST = '192.168.1.100'  # IP دوربین را اینجا قرار دهید
+HOST = '62.219.163.39'  # IP دوربین را اینجا قرار دهید
 PORT = 554               
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
